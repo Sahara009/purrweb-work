@@ -1,0 +1,47 @@
+.footer__block {
+  padding: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer__block--border {
+  border-bottom: 2px solid #444444;
+}
+.footer__menu-item {
+  display: inline;
+  margin: 0 15px;
+}
+.footer__market-item {
+  display: inline-block;
+  margin: 0 5px;
+}
+.footer__market-link {
+  display: block;
+  width: 200px;
+}
+.footer__terms-item {
+  display: inline;
+  margin: 0 10px;
+}
+.footer__terms-link {
+  text-decoration: underline;
+}
+.footer__block--text-terms * {
+  color: #b9b9b9;
+  font-size: 14px;
+}
+.button-footer {
+  cursor: pointer;
+  border: 1px solid transparent;
+  background-color: #954ced;
+  padding: 16px 30px;
+  border-radius: 20px;
+  transition: 0.3s;
+  font-size: 20px;
+}
+.button-footer:hover {
+  border-color: #954ced;
+  background-color: #181818;
+  scale: 1.05;
+}

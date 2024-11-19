@@ -1,0 +1,24 @@
+.brands {
+  background-color: #fff;
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+.brands__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.brands__item {
+  width: 200px;
+  margin-bottom: 50px;
+}
+@media (max-width: 750px) {
+  .brands__item {
+    width: 115px;
+    margin-bottom: 50px;
+  }
+  .brands__list {
+    justify-content: space-around;
+  }
+}

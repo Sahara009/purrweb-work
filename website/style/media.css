@@ -1,0 +1,122 @@
+@media only screen and (max-width: 1200px) {
+  .about__inner {
+    flex-direction: column;
+  }
+  .about__block-text {
+    margin-bottom: 42px;
+  }
+  .about__block-item {
+    width: 100% !important;
+  }
+  .why__block {
+    width: 100% !important;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .main {
+    overflow: hidden;
+  }
+  .main__image-line {
+    width: 180% !important;
+  }
+  .links__inner {
+    flex-direction: column;
+  }
+  .links__text {
+    margin-bottom: 20px;
+  }
+  .links__buttons {
+    width: 100% !important;
+  }
+  .iphone__block-text {
+    left: -90px !important;
+  }
+}
+@media only screen and (max-width: 750px) {
+  * {
+    font-size: 16px !important;
+  }
+  h1,
+  h2 {
+    font-size: 40px !important;
+  }
+  h3 {
+    font-size: 32px !important;
+    line-height: 33px !important;
+  }
+  h4,
+  .textSpan {
+    font-size: 24px !important;
+  }
+  .header__button {
+    display: none;
+  }
+  .header__burger {
+    display: block !important;
+  }
+  .about {
+    margin-top: 40px;
+  }
+  .about__line {
+    display: none;
+  }
+  .about__title {
+    margin-bottom: 30px !important;
+  }
+  .about__block-item {
+    margin-bottom: 62px !important;
+  }
+  .about__block-item h3 {
+    width: 100%;
+  }
+  .textSpan::before {
+    right: 0;
+    bottom: 0;
+    width: 230px !important;
+    height: 30px !important;
+  }
+  .statistic__inner {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .statistic__block {
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+  }
+  .statistic__block h2 {
+    margin-right: 20px;
+  }
+  /* .why__block-image {
+    position: relative !important;
+    bottom: -50px !important;
+  } */
+  /* .why__block {
+    flex-direction: column-reverse;
+  } */
+  .links__image {
+    width: 35px !important;
+    height: 35px !important;
+  }
+  .footer__block {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+  }
+  .footer__menu-item {
+    display: block !important;
+    margin: 20px 0 !important;
+  }
+  .footer__market-item {
+    display: block !important;
+    margin: 20px 0 !important;
+  }
+  .container {
+    padding: 0px 16px !important;
+  }
+  .tabs__menu-list {
+    padding: 0px !important;
+  }
+  .button {
+    padding: 16px 110px !important;
+  }
+}

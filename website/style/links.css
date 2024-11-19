@@ -1,0 +1,59 @@
+.links {
+  background-color: #fff;
+}
+.links__text {
+  max-width: 900px;
+  width: 100%;
+  margin-right: 30px;
+}
+.links__text * {
+  color: #181818;
+}
+.links__text p {
+  max-width: 530px;
+  font-size: 20px;
+}
+.links__inner {
+  display: flex;
+  align-items: center;
+}
+.links__buttons {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+.links__buttons-image {
+  padding: 15px;
+  border-radius: 100px;
+  position: relative;
+}
+.links__image {
+  width: 50px;
+  height: 50px;
+}
+.links__buttons-image#twitter,
+.links__buttons-image#tiktok {
+  top: 70px;
+}
+.button-link {
+  cursor: pointer;
+  border: 1px solid transparent;
+  background-color: #954ced;
+  padding: 17px 20px;
+  border-radius: 100px;
+  transition: 0.3s;
+  font-size: 20px;
+}
+.button-link:hover {
+  border-color: #954ced;
+  background-color: #181818;
+  scale: 1.05;
+}
+@media (max-width: 750px) {
+  .links {
+    padding-bottom: 100px;
+  }
+  .links__text {
+    margin-left: 16px;
+  }
+}

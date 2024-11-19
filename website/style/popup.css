@@ -1,0 +1,39 @@
+.popup {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.popup__content {
+  background-color: #fff;
+  max-width: 500px;
+  width: 100%;
+  padding: 20px;
+  border-radius: 20px;
+}
+.popup__closeBtn {
+  cursor: pointer;
+  color: #cecece !important;
+  margin-bottom: 20px;
+}
+.popup__content *:not(button) {
+  color: #181818;
+}
+.popup__form {
+  display: flex;
+  flex-direction: column;
+}
+.popup__form-block {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.popup__form-block label {
+  margin-bottom: 10px;
+}

@@ -1,0 +1,33 @@
+.header__burger {
+  cursor: pointer;
+  display: none;
+}
+.header__mobile {
+  position: fixed;
+  display: none;
+  z-index: 5;
+  background-color: #181818;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.header__mobile-inner {
+  padding: 0 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 80%;
+}
+.header__mobile-closeBtn {
+  cursor: pointer;
+  width: 40px;
+  margin-top: 15px;
+  margin-left: auto;
+}
+.header__mobile-item {
+  margin-bottom: 20px;
+}
+.header__mobile-link {
+  font-size: 20px;
+}

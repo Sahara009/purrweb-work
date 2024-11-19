@@ -1,0 +1,26 @@
+/* .header {
+  position: fixed;
+} */
+.header__container {
+  padding: 10px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.button {
+  cursor: pointer;
+  border: 1px solid transparent;
+  background-color: #954ced;
+  padding: 16px 30px;
+  border-radius: 20px;
+  transition: 0.3s;
+  font-size: 20px;
+}
+.button:hover {
+  border-color: #954ced;
+  background-color: #181818;
+  scale: 1.05;
+}
+.logo img {
+  width: 150px;
+}
