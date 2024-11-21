@@ -1,0 +1,97 @@
+@import url("reset.css");
+@import url("header.css");
+@import url("burger.css");
+@import url("main.css");
+@import url("about.css");
+@import url("iphone.css");
+@import url("statistic.css");
+@import url("why-blocks.css");
+@import url("slogan.css");
+@import url("links.css");
+@import url("brands.css");
+@import url("footer.css");
+@import url("popup.css");
+@import url("cookies.css");
+@import url("success.css");
+@import url("media.css");
+
+@font-face {
+  font-family: "Outfit";
+  src: url(./fonts/Outfit-Regular.ttf);
+}
+@font-face {
+  font-family: "Outfit Bold";
+  src: url(./fonts/Outfit-Bold.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: "Outfit", sans-serif;
+}
+body {
+  background-color: #181818;
+  height: auto;
+  color: #fff;
+}
+.button {
+  color: #fff;
+}
+.button-slogan {
+  color: #fff;
+}
+.button-footer {
+  color: #fff;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1440px;
+  width: 100%;
+  padding: 0 60px;
+}
+.tabs {
+  background-color: #ffaa4c;
+}
+.tabs__menu-list {
+  display: flex;
+
+  padding: 0 60px;
+}
+.tabs__menu-item {
+  display: inline-block;
+  cursor: pointer;
+  color: #181818;
+  padding: 10px 35px;
+  transition: 0.3s;
+}
+.tabs__menu-item:hover:not(.tabs__menu-item--active) {
+  color: #fff;
+  background-color: #954ced;
+  border-radius: 20px 20px 0 0;
+}
+.tabs__menu-item--active {
+  color: #fff;
+  background-color: #181818;
+  border-radius: 20px 20px 0 0;
+}
+.textSpan {
+  font-size: 36px;
+  position: relative;
+}
+.textSpan::before {
+  content: "";
+  width: 360px;
+  height: 55px;
+  background-color: #954ced;
+  border-radius: 100px;
+  transform: rotate(-1deg);
+  position: absolute;
+  z-index: -1;
+}
+.inputField {
+  border: 1px solid #cfcfcf;
+  border-radius: 20px;
+  padding: 10px 15px;
+}

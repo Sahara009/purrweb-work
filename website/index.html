@@ -3,15 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="./style/root.css" />
     <title>budss</title>
   </head>
   <body>
     <!-- POPUP -->
-    <div class="popup">
+    <div class="popup" id="popup">
       <div class="popup__content">
         <div class="popup__closeBtn">✖</div>
-        <form action="#" class="popup__form">
+        <form id="contactForm" class="popup__form">
           <div class="popup__form-block">
             <label for="name">Name <span class="required">*</span></label>
             <input
@@ -50,6 +50,35 @@
 
           <button type="submit" class="button">Contact sales</button>
         </form>
+      </div>
+    </div>
+
+    <!-- COOKIES -->
+    <div class="cookies">
+      <div class="cookies__closeBtn">✖</div>
+      <div class="cookies-content">
+        <p>
+          This website uses cookies to ensure you get the best experience on our
+          website. They also allow us to analyze user behavior in order to
+          constantly improve the website for you.
+        </p>
+        <div class="cookies__buttons">
+          <button class="cookies__accept">Accept</button>
+          <button class="cookies__decline">Decline</button>
+        </div>
+      </div>
+    </div>
+    <!-- SUCCESS -->
+    <div class="success">
+      <div class="success-content">
+        <div class="success__closeBtn">✖</div>
+        <img src="./assets/success.png" alt="" />
+        <h4>Thank you!</h4>
+        <p>
+          Thank you, we have received your application and will contact you
+          soon!
+        </p>
+        <button class="success__button">Super!</button>
       </div>
     </div>
     <!-- TABS -->

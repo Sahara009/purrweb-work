@@ -54,6 +54,7 @@
   .header__burger {
     display: block !important;
   }
+
   .about {
     margin-top: 40px;
   }
@@ -87,13 +88,6 @@
   .statistic__block h2 {
     margin-right: 20px;
   }
-  /* .why__block-image {
-    position: relative !important;
-    bottom: -50px !important;
-  } */
-  /* .why__block {
-    flex-direction: column-reverse;
-  } */
   .links__image {
     width: 35px !important;
     height: 35px !important;
